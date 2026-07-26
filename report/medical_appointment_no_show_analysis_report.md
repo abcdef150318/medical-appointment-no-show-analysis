@@ -38,3 +38,39 @@ The dataset was cleaned and prepared using SQL before statistical analysis. Data
 - Created analysis-ready variables for statistical testing.
 
 After data cleaning, the final dataset contained **50,000 complete patient appointment records** for analysis.
+
+## SQL Data Cleaning and Exploratory Analysis
+
+SQL was used to clean, validate, and explore the dataset before statistical analysis. The SQL scripts included data validation, feature engineering, and exploratory analysis to ensure that the dataset was ready for hypothesis testing and predictive modeling.
+
+### Data Cleaning Tasks
+
+The SQL data cleaning script included:
+
+- Checking for duplicate records
+- Identifying missing values
+- Verifying data integrity
+- Creating the **Waiting Time** variable
+- Standardizing categorical variables
+- Preparing the final analysis dataset
+
+
+
+### Exploratory Data Analysis (EDA)
+
+SQL exploratory analysis was performed to summarize the dataset and understand patient characteristics before conducting statistical analyses.
+
+The SQL queries included:
+
+- Total number of appointments
+- Show-Up vs No-Show counts
+- Gender distribution
+- Average patient age
+- Average waiting time
+- Appointment distribution by weekday
+- Frequency of chronic diseases
+- SMS reminder distribution
+- Scholarship distribution
+
+The complete SQL scripts are available in the **sql** folder:
+
