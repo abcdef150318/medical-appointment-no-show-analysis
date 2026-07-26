@@ -1,6 +1,6 @@
 # medical-appointment-no-show-analysis
-Healthcare data analysis project examining factors associated with missed medical appointments using Microsoft Excel and Jamovi.
-# Medical Appointment No-Show Analysis
+Healthcare data analysis project examining factors associated with missed medical appointments using Microsoft Excel, SQL, and Jamovi.
+
 
 ## Overview
 
