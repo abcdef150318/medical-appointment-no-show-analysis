@@ -137,8 +137,11 @@ McFadden R² = 0.0139
 
 ## Key Findings
 
-Patients who were older and several clinical and appointment-related factors were independently associated with appointment attendance.
-
+- Older patients were more likely to attend their scheduled appointments.
+- Longer waiting times were associated with appointment attendance.
+- Hypertension, alcoholism, smoking status, and scholarship status showed statistically significant associations with appointment outcomes.
+- Gender and tuberculosis showed weak or non-significant associations in some analyses.
+- Binary logistic regression identified age and several clinical and appointment-related variables as significant predictors of appointment attendance.
 ---
 
 ## Skills Demonstrated
@@ -147,8 +150,12 @@ Patients who were older and several clinical and appointment-related factors wer
 - Data Cleaning
 - Data Validation
 - Exploratory Data Analysis
-- SPSS Statistics
+- Jamovi Statistical Analysis
 - Chi-square Test
 - Independent Samples t-test
 - Binary Logistic Regression
 - Statistical Reporting
+
+- ## Conclusion
+
+This project demonstrated an end-to-end data analysis workflow using SQL and Jamovi. The analysis identified several demographic, clinical, and appointment-related factors associated with patient attendance. The findings highlight the importance of using data-driven approaches to support appointment scheduling and reduce patient no-shows in healthcare settings.
