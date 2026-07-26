@@ -9,4 +9,4 @@ This folder contains screenshots of the SQL queries, statistical analyses, and v
 - Independent Samples t-test
 - Binary Logistic Regression
 
-- 
+  
