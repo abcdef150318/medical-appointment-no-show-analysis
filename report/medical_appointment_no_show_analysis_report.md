@@ -73,7 +73,7 @@ The SQL queries included:
 - Scholarship distribution
 
 The complete SQL scripts are available in the **sql** folder:
-**data_cleaning.sql
+data_cleaning.sql
 
-**exploratory_data_analysis.sql
+exploratory_data_analysis.sql
 
