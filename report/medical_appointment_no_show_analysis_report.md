@@ -23,3 +23,18 @@ The dataset used in this project contains **50,000 medical appointment records**
 - **Status** – Appointment outcome (Show-Up or No-Show)
 
 The dependent variable in this study is **Status (Show-Up vs No-Show)**. All other variables were analyzed as potential predictors of patient attendance.
+
+## Data Cleaning and Preparation
+
+The dataset was cleaned and prepared using SQL before statistical analysis. Data quality checks were performed to ensure accurate and reliable results.
+
+### Data Cleaning Steps
+
+- Removed duplicate records (none were found).
+- Checked for missing values across all variables.
+- Verified patient ages and retained valid observations.
+- Calculated **Waiting Time** as the number of days between appointment registration and appointment date.
+- Standardized categorical variables such as Gender and Appointment Status.
+- Created analysis-ready variables for statistical testing.
+
+After data cleaning, the final dataset contained **50,000 complete patient appointment records** for analysis.
