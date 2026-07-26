@@ -1,0 +1,175 @@
+Medical Appointment No-Show Analysis
+Healthcare Data Analytics Project Using SQL and Statistical Analysis
+
+Tools Used: SQL (MySQL), Microsoft Excel, SPSS Statistical Workflow (completed in Jamovi), GitHub
+
+Project Overview
+
+Missed medical appointments are a significant challenge for healthcare organizations because they reduce operational efficiency, increase healthcare costs, and delay patient care. Understanding the factors associated with appointment attendance can help healthcare providers improve scheduling practices and develop strategies to reduce appointment no-show rates.
+
+The objective of this project was to identify demographic, clinical, and appointment-related factors associated with appointment attendance using a real-world healthcare dataset. The project demonstrates an end-to-end healthcare data analytics workflow, including data cleaning, exploratory data analysis, statistical hypothesis testing, and predictive modelling.
+
+Project Objectives
+
+The objectives of this project were to:
+
+Clean and validate a healthcare appointment dataset using SQL.
+Perform exploratory data analysis to understand patient and appointment characteristics.
+Summarize patient demographics using descriptive statistics.
+Examine relationships between patient characteristics and appointment attendance using Chi-square tests.
+Compare the mean age of patients who attended appointments with those who missed appointments using an independent samples t-test.
+Develop a binary logistic regression model to identify independent predictors of appointment attendance.
+Dataset
+
+The project used a publicly available healthcare appointment dataset.
+
+Dataset Information	Value
+Original Dataset	110,527 records
+SQL-Cleaned Dataset	79,486 records
+Statistical Analysis Dataset	50,000 records
+Variables Included
+Age
+Gender
+Appointment Status (Show-Up / No-Show)
+Diabetes
+Hypertension
+Alcoholism
+Smoking
+Scholarship
+Tuberculosis
+SMS Reminder
+Awaiting Time
+Handicap
+Day of the Week
+Methodology
+
+The project followed a structured analytical workflow.
+
+1. Data Cleaning (SQL)
+
+The raw dataset was imported into MySQL and cleaned before statistical analysis.
+
+The data cleaning process included:
+
+Validating imported records.
+Identifying and removing duplicate records.
+Checking for invalid age values.
+Verifying variable categories.
+Preparing the cleaned dataset for statistical analysis.
+
+SQL aggregate functions such as COUNT(), GROUP BY, ORDER BY, MIN(), MAX(), and AVG() were used to summarize and validate the dataset.
+
+2. Exploratory Data Analysis (EDA)
+
+Exploratory Data Analysis was performed using SQL to examine patient demographics and appointment characteristics.
+
+Variables explored included:
+
+Appointment Status
+Gender
+Diabetes
+Hypertension
+Alcoholism
+Smoking
+Scholarship
+Tuberculosis
+SMS Reminder
+Day of the Week
+Awaiting Time
+
+EDA provided an overview of the dataset and helped identify variables for subsequent statistical analysis.
+
+3. Statistical Analysis
+
+The cleaned dataset was analyzed using a SPSS statistical workflow (completed in Jamovi).
+
+The following analyses were performed:
+
+Descriptive Statistics
+
+Descriptive statistics summarized the Age variable.
+
+Statistic	Value
+Mean Age	37.8 years
+Median	38 years
+Standard Deviation	22.8 years
+Minimum Age	0 years
+Maximum Age	113 years
+Chi-square Tests
+
+Chi-square tests examined associations between appointment attendance and categorical variables.
+
+Significant variables
+
+Gender
+Diabetes
+Hypertension
+Alcoholism
+Smoking
+Scholarship
+Day of the Week
+
+Not Significant
+
+Tuberculosis
+SMS Reminder
+Independent Samples t-test
+
+An Independent Samples t-test compared the mean age of patients who attended appointments with those who missed appointments.
+
+The analysis demonstrated that patients who attended appointments were significantly older than patients who missed appointments (p < .001).
+
+Binary Logistic Regression
+
+Binary Logistic Regression was used because the outcome variable (Appointment Status) consisted of two categories.
+
+The model evaluated multiple predictor variables simultaneously.
+
+Overall Model
+
+χ² = 852
+p < .001
+McFadden's R² = 0.0139
+Significant Predictors
+Age
+Awaiting Time
+Hypertension
+Alcoholism
+Smoking
+Scholarship
+Selected SMS Reminder category
+Selected Day-of-the-Week comparisons
+Non-Significant Predictors
+Gender
+Diabetes
+Handicap
+Several Day-of-the-Week comparisons
+Key Findings
+
+The analysis identified several factors associated with appointment attendance.
+
+Key findings include:
+
+Older patients were more likely to attend appointments.
+Patients with hypertension demonstrated different attendance patterns than patients without hypertension.
+Awaiting Time was an important predictor of appointment attendance.
+Behavioural characteristics such as smoking and alcoholism were associated with appointment attendance.
+Scholarship status was independently associated with appointment attendance.
+Binary Logistic Regression identified independent predictors after adjusting for multiple demographic and clinical variables.
+Skills Demonstrated
+Technical Skills
+SQL (MySQL)
+Microsoft Excel
+SPSS Statistical Workflow (completed in Jamovi)
+Git & GitHub
+Data Analytics Skills
+Data Cleaning
+Data Validation
+Exploratory Data Analysis (EDA)
+SQL Query Development
+Descriptive Statistics
+Chi-square Tests
+Independent Samples t-test
+Binary Logistic Regression
+Statistical Interpretation
+Research Reporting
