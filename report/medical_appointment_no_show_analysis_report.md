@@ -77,3 +77,14 @@ data_cleaning.sql
 
 exploratory_data_analysis.sql
 ## Key Business Insights
+- Older patients were more likely to attend scheduled appointments, while younger patients had higher no-show rates.
+
+- Longer waiting times between scheduling and the appointment were associated with increased no-show rates.
+
+- Patients who received SMS reminders demonstrated better appointment attendance than those who did not receive reminders.
+
+- Certain weekdays showed significantly higher no-show rates, suggesting that appointment scheduling patterns influence attendance.
+
+- Logistic regression identified waiting time, age, SMS reminders, and selected patient characteristics as significant predictors of appointment attendance.
+
+- These findings can help healthcare organizations optimize appointment scheduling, reduce missed appointments, and improve resource utilization.
