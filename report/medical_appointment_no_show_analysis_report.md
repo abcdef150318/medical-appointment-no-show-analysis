@@ -76,4 +76,4 @@ The complete SQL scripts are available in the **sql** folder:
 data_cleaning.sql
 
 exploratory_data_analysis.sql
-
+## Key Business Insights
